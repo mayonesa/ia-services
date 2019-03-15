@@ -1,0 +1,10 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET      /resellers                controllers.OptController.resellers
+
+POST     /optin/:reseller/:env     controllers.OptController.optin(reseller, env, sectionId: Option[String])
+
+POST     /optout/:reseller/:env    controllers.OptController.optout(reseller, env, sectionId: Option[String])

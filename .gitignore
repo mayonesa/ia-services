@@ -1,0 +1,13 @@
+**/target
+bin
+logs
+conf/generated.keystore
+conf/secrets.conf
+.classpath
+.cache-main
+.gitignore.swp
+.project
+.settings/
+.metadata/
+.cache-tests
+**/.DS_Store
